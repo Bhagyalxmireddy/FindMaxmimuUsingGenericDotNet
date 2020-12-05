@@ -6,7 +6,7 @@ namespace FindMaximumValueUsingGenerics
 {
     public class FindMaximumValue
     {
-        public static int MaximumNumber(int firstNumber, int secondNumber, int thirdNumber)
+        public int MaximumNumber(int firstNumber, int secondNumber, int thirdNumber)
         {
             if (firstNumber.CompareTo(secondNumber) > 0 && firstNumber.CompareTo(thirdNumber) > 0)
             {
@@ -21,5 +21,21 @@ namespace FindMaximumValueUsingGenerics
                 return thirdNumber;
             }
         }
+        public double MaximumNumberFloat(double firstNumber, double secondNumber, double thirdNumber)
+        {
+            if (firstNumber.CompareTo(secondNumber) > 0 && firstNumber.CompareTo(thirdNumber) > 0)
+            {
+                return firstNumber;
+            }
+            else if (secondNumber.CompareTo(thirdNumber) > 0)
+            {
+                return secondNumber;
+            }
+            else
+            {
+                return thirdNumber;
+            }
+        }
+
     }
 }
