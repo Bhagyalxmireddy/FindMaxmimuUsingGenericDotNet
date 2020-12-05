@@ -44,5 +44,23 @@ namespace FindMaximumValueTest
             double maxvalue = maximumValue.MaximumNumberFloat(3.2, 2.1, 5.3);
             Assert.AreEqual(5.3, maxvalue);
         }
+        [TestMethod]
+        public void givenThreeStrings_WhenFirstPositionIsMax_ShouldReturnSameNumber()
+        {
+            string maxvalue = maximumValue.MaximumNumberString("Peach", "Apple", "Banana");
+            Assert.AreEqual("Peach", maxvalue);
+        }
+        [TestMethod]
+        public void givenThreeStrings_WhenSecondPositionIsMax_ShouldReturnSameNumber()
+        {
+            string maxvalue = maximumValue.MaximumNumberString("Apple", "Peach", "Banana");
+            Assert.AreEqual("Peach", maxvalue);
+        }
+        [TestMethod]
+        public void givenThreeStrings_WhenThirdPositionIsMax_ShouldReturnSameNumber()
+        {
+            string maxvalue = maximumValue.MaximumNumberString("Apple","Banana", "Peach");
+            Assert.AreEqual("Peach", maxvalue);
+        }
     }
 }

@@ -36,6 +36,20 @@ namespace FindMaximumValueUsingGenerics
                 return thirdNumber;
             }
         }
-
+        public string MaximumNumberString(string firstNumber, string secondNumber, string thirdNumber)
+        {
+            if (firstNumber.CompareTo(secondNumber) > 0 && firstNumber.CompareTo(thirdNumber) > 0)
+            {
+                return firstNumber;
+            }
+            else if (secondNumber.CompareTo(thirdNumber) > 0)
+            {
+                return secondNumber;
+            }
+            else
+            {
+                return thirdNumber;
+            }
+        }
     }
 }
