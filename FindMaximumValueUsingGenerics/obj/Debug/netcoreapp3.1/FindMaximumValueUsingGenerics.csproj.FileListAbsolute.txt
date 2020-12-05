@@ -1,0 +1,13 @@
+C:\Users\USER\source\repos\FindMaximumValueUsingGenerics\FindMaximumValueUsingGenerics\bin\Debug\netcoreapp3.1\FindMaximumValueUsingGenerics.exe
+C:\Users\USER\source\repos\FindMaximumValueUsingGenerics\FindMaximumValueUsingGenerics\bin\Debug\netcoreapp3.1\FindMaximumValueUsingGenerics.deps.json
+C:\Users\USER\source\repos\FindMaximumValueUsingGenerics\FindMaximumValueUsingGenerics\bin\Debug\netcoreapp3.1\FindMaximumValueUsingGenerics.runtimeconfig.json
+C:\Users\USER\source\repos\FindMaximumValueUsingGenerics\FindMaximumValueUsingGenerics\bin\Debug\netcoreapp3.1\FindMaximumValueUsingGenerics.runtimeconfig.dev.json
+C:\Users\USER\source\repos\FindMaximumValueUsingGenerics\FindMaximumValueUsingGenerics\bin\Debug\netcoreapp3.1\FindMaximumValueUsingGenerics.dll
+C:\Users\USER\source\repos\FindMaximumValueUsingGenerics\FindMaximumValueUsingGenerics\bin\Debug\netcoreapp3.1\FindMaximumValueUsingGenerics.pdb
+C:\Users\USER\source\repos\FindMaximumValueUsingGenerics\FindMaximumValueUsingGenerics\obj\Debug\netcoreapp3.1\FindMaximumValueUsingGenerics.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\FindMaximumValueUsingGenerics\FindMaximumValueUsingGenerics\obj\Debug\netcoreapp3.1\FindMaximumValueUsingGenerics.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\FindMaximumValueUsingGenerics\FindMaximumValueUsingGenerics\obj\Debug\netcoreapp3.1\FindMaximumValueUsingGenerics.AssemblyInfo.cs
+C:\Users\USER\source\repos\FindMaximumValueUsingGenerics\FindMaximumValueUsingGenerics\obj\Debug\netcoreapp3.1\FindMaximumValueUsingGenerics.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\FindMaximumValueUsingGenerics\FindMaximumValueUsingGenerics\obj\Debug\netcoreapp3.1\FindMaximumValueUsingGenerics.dll
+C:\Users\USER\source\repos\FindMaximumValueUsingGenerics\FindMaximumValueUsingGenerics\obj\Debug\netcoreapp3.1\FindMaximumValueUsingGenerics.pdb
+C:\Users\USER\source\repos\FindMaximumValueUsingGenerics\FindMaximumValueUsingGenerics\obj\Debug\netcoreapp3.1\FindMaximumValueUsingGenerics.genruntimeconfig.cache
