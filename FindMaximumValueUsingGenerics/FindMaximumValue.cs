@@ -6,50 +6,35 @@ namespace FindMaximumValueUsingGenerics
 {
     public class FindMaximumValue
     {
-        public int MaximumNumber(int firstNumber, int secondNumber, int thirdNumber)
+        public class GenericMaximu<T> where T : IComparable
         {
-            if (firstNumber.CompareTo(secondNumber) > 0 && firstNumber.CompareTo(thirdNumber) > 0)
+            public T x, y, z;
+
+            public GenericMaximu(T x, T y, T z)
             {
-                return firstNumber;
+                this.x = x;
+                this.y = y;
+                this.z = z;
             }
-            else if (secondNumber.CompareTo(thirdNumber) > 0)
+            public static T Maximum(T x, T y, T z)
             {
-                return secondNumber;
+                T max = x;
+                if (y.CompareTo(max) > 0)
+                {
+                    max = y;
+                }
+                if (z.CompareTo(max) > 0)
+                {
+                    max = z;
+                }
+                return max;
             }
-            else
+            public T maximumMethod()
             {
-                return thirdNumber;
-            }
-        }
-        public double MaximumNumberFloat(double firstNumber, double secondNumber, double thirdNumber)
-        {
-            if (firstNumber.CompareTo(secondNumber) > 0 && firstNumber.CompareTo(thirdNumber) > 0)
-            {
-                return firstNumber;
-            }
-            else if (secondNumber.CompareTo(thirdNumber) > 0)
-            {
-                return secondNumber;
-            }
-            else
-            {
-                return thirdNumber;
-            }
-        }
-        public string MaximumNumberString(string firstNumber, string secondNumber, string thirdNumber)
-        {
-            if (firstNumber.CompareTo(secondNumber) > 0 && firstNumber.CompareTo(thirdNumber) > 0)
-            {
-                return firstNumber;
-            }
-            else if (secondNumber.CompareTo(thirdNumber) > 0)
-            {
-                return secondNumber;
-            }
-            else
-            {
-                return thirdNumber;
-            }
+                T max = GenericMaximu<T>.Maximum(this.x, this.y, this.z);
+                return max;
+             }
+           
         }
     }
 }
