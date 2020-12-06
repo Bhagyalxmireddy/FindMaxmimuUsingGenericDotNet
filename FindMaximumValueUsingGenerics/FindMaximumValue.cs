@@ -6,35 +6,34 @@ namespace FindMaximumValueUsingGenerics
 {
     public class FindMaximumValue
     {
-        public class GenericMaximu<T> where T : IComparable
+        public class Genericmaximum<T> where T : IComparable
         {
-            public T x, y, z;
+            public T[] value;
 
-            public GenericMaximu(T x, T y, T z)
+            public Genericmaximum(T[] value)
             {
-                this.x = x;
-                this.y = y;
-                this.z = z;
+                this.value = value;
             }
-            public static T Maximum(T x, T y, T z)
+            public T[] Sort(T[] values)
             {
-                T max = x;
-                if (y.CompareTo(max) > 0)
-                {
-                    max = y;
-                }
-                if (z.CompareTo(max) > 0)
-                {
-                    max = z;
-                }
-                return max;
+                Array.Sort(values);
+                return values;
+            }
+            public T MaxValue(params T[] values)
+            {
+                var sorted_values = Sort(values);
+                return sorted_values[^1];
             }
             public T maximumMethod()
             {
-                T max = GenericMaximu<T>.Maximum(this.x, this.y, this.z);
+                var max = MaxValue(this.value);
                 return max;
-             }
-           
+            }
+            public void PrintMaxValue()
+            {
+                var max = MaxValue(this.value);
+                Console.WriteLine("MaximumValue is : " + max);
+            }
         }
     }
 }
