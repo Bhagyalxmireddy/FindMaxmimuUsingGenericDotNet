@@ -21,8 +21,10 @@ namespace FindMaximumValueUsingGenerics
             }
             public T MaxValue(params T[] values)
             {
-                var sorted_values = Sort(values);
-                return sorted_values[^1];
+                 var sorted_values = Sort(values);
+                 return sorted_values[^1];
+                /*T[] sortedArray = Sort(this.value);
+                return sortedArray[sortedArray.Length - 1];*/
             }
             public T maximumMethod()
             {
@@ -34,6 +36,10 @@ namespace FindMaximumValueUsingGenerics
                 var max = MaxValue(this.value);
                 Console.WriteLine("MaximumValue is : " + max);
             }
+        }
+
+        public class Genericmaximum
+        {
         }
     }
 }
